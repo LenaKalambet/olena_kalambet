@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false">
+    <test name="TestHome8">
+        <classes>
+            <class name="homeWorkLesson8.TestNGHomeWork8">
+                <methods>
+                    <exclude name="bTest"></exclude>
+                    <exclude name="cTest"></exclude>
+                    <exclude name="dTest"></exclude>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

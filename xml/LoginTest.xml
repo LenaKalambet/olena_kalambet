@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="false">
+    <parameter name="email" value="Vika.smile1993@mail.ru"></parameter>
+    <parameter name="pass" value="1234"></parameter>
+    <test name="Login">
+        <classes>
+            <class name="lesson5.SeleniumLesson5"></class>
+        </classes>
+    </test>
+    <test name="TestMethods">
+        <classes>
+            <class name="lesson8.TestNGTestMethods"></class>
+        </classes>
+    </test>
+</suite>
